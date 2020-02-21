@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{B2993B39-72E6-43C0-97E1-DC57968C3736}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Database.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
     <Files>
-      <File FileName="Startup.cs" Line="30" Column="111" />
-      <File FileName="Database.cs" Line="105" Column="65" />
+      <File FileName="Startup.cs" Line="30" Column="118" />
+      <File FileName="Database.cs" />
       <File FileName="Model/User.cs" />
       <File FileName="Controllers/PostController.cs" />
     </Files>
@@ -13,7 +13,7 @@
             <Node name="DI" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Model" expanded="True" />
-              <Node name="Database.cs" selected="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
