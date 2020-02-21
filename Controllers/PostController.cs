@@ -4,6 +4,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using DI.Model;
+using Microsoft.AspNetCore.JsonPatch;
 
 namespace DI.Controllers
 {
@@ -39,7 +40,7 @@ namespace DI.Controllers
         }
 
         [HttpPatch("{id}")]
-        public IActionResult Patch(Post post, int id)
+        public IActionResult Patch([FromBody]JsonPatchDocument<Post> post, int id)
         {
             return Ok(_database.UpdatePost(post, id));
         }

@@ -19,3 +19,5 @@
 /Users/user/Projects/Task11_BootcampRefactory/DI/obj/Debug/netcoreapp3.1/DI.csproj.CopyComplete
 /Users/user/Projects/Task11_BootcampRefactory/DI/obj/Debug/netcoreapp3.1/DI.dll
 /Users/user/Projects/Task11_BootcampRefactory/DI/obj/Debug/netcoreapp3.1/DI.pdb
+/Users/user/Projects/Task11_BootcampRefactory/DI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+/Users/user/Projects/Task11_BootcampRefactory/DI/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
