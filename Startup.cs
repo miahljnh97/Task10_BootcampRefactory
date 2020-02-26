@@ -27,7 +27,7 @@ namespace DI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            var connection = new NpgsqlConnection("Host=ec2-3-229-210-93.compute-1.amazonaws.com; Username=wdkwrcxwldyesb;Password=ab3517779b0dbef2b4243fb7fd3a09e6bb67e2a87a2da327e2c1dbaef84eb51e;Database=do48415kuaslg; SSL Mode =Require; Trust Server Certificate=true") ;
+            var connection = new NpgsqlConnection("Host=ec2-52-207-93-32.compute-1.amazonaws.com; Username=pbqlpifinwfyga; Password=54f293be5077be122ab38871480fe6952bb0850b908eb92fcde528a895f9f28d; Database=dl33t870l4m92; SSL Mode =Require; Trust Server Certificate=true") ;
 
             services.AddSingleton<NpgsqlConnection>(connection);
             services.AddTransient<IDatabase, Database>();
